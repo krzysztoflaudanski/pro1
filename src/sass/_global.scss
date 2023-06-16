@@ -1,0 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: $base-size * 314;
+}
+
+.container {
+  max-width: $base-size * 160;
+  margin: 0 auto;
+}
+
+#pages {
+  margin: 0 auto;
+}

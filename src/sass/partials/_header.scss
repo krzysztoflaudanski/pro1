@@ -1,0 +1,11 @@
+.header {
+  margin: 0 auto;
+  max-width: $base-size * 160;
+  height: $base-size * 83 + 11;
+  background-image: url(./../../images/background.png);
+    
+  &__wrapper {
+    opacity: 0.69;
+  }
+
+}

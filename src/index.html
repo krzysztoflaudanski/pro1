@@ -29,6 +29,13 @@
             <div id="home-wrapper" class="home-wrapper container"></div>
         </section>
     </div>
+    <div class="about">
+        <div class="container">
+            <div class="about">
+                
+            </div>
+        </div>
+    </div>
 
 
     <script id="template-menu-product" type="text/x-handlebars-template">
@@ -41,6 +48,13 @@
                         <h3>{{title}}</h3>
                         </div>
                         <div class="products__description">{{{description}}}</div>
+                        <div class="products__roasting">
+                            <h4>roasting: <span>{{roasting}}</span>
+                            <br>intensity: <span>{{intensity}}</span></h4>
+                        </div>
+                        {{#if top}}
+                        <div class="products__badge">{{{badge}}}</div>
+                        {{/if}}
                     </div>
                     <div class="col-xl-6 products__image">
                         {{{images}}}
@@ -55,6 +69,10 @@
                         <h3>{{title}}</h3>
                         </div>
                         <div class="products__description">{{{description}}}</div>
+                        <div class="products__roasting">
+                            <h4>roasting: <span>{{roasting}}</span>
+                            <br>intensity: <span>{{intensity}}</span></h4>
+                        </div>
                     </div>
                     </div>
                 {{/if}}

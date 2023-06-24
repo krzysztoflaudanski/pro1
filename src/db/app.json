@@ -3,16 +3,18 @@
         {
             "id": "1",
             "title": "01. la lagartija",
-            "description": "Mysterious and treacherous... The best choice for<br> the start of your journey! It will provide your a rich<br> delicious flavor",
+            "description": "Mysterious and treacherous... The best choice for<br><span> the start of your journey! It will provide your a rich</span><br> delicious flavor",
             "roasting": "5/10",
             "intensity": "6/10",
             "images": "<img src=\"images/coffee-1.png\">",
-            "option": true
+            "option": true,
+            "top": true,
+            "badge": "<img src=\"images/no1.png\">"
         },
         {
             "id": "2",
             "title": "02. el tigre",
-            "description": "Realy dark coffee, only for real gourmets. It has<br> bitter flavor of grapefruits and is mixed with a littel<br> bit of peanuts with with caramel",
+            "description": "Realy dark coffee, only for real gourmets. It has<br><span> bitter flavor of grapefruits and is mixed with a littel</span><br> bit of peanuts with with caramel",
             "roasting": "8/10",
             "intensity": "9/10",
             "images": "<img src=\"images/coffee-2.png\">",
@@ -21,7 +23,7 @@
         {
             "id": "3",
             "title": "03. la cucaracha",
-            "description": "Sweat and intense with a big amount of different<br> flavors. Caramel, grapes, strawberry, you name it! It,s<br> great choice for warm summer days",
+            "description": "Sweat and intense with a big amount of different<br><span> flavors. Caramel, grapes, strawberry, you name it! It,s</span><br> great choice for warm summer days",
             "roasting": "3/10",
             "intensity": "7/10",
             "images": "<img src=\"images/coffee-3.png\">",

@@ -3,14 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Our coffes reflect us - young, wild and free. We are on the journey of new tastes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coffee shop - EL TIGRE</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="header">
+        <div class="header__overlay"></div>
         <div class="header__wrapper">
             <div class="header__container">
                 <div class="header__title">
@@ -19,45 +21,87 @@
                 <div class="header__subtitle">venezuela coffee beans</div>
                 <div class="header__nav">
                     <ul>
-                        <li><a href="">home</a></li>
-                        <li><a href="">products</a></li>
-                        <li><a href="">contact</a></li>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#products">products</a></li>
+                        <li><a href="#contact">contact</a></li>
                     </ul>
                 </div>
             </div>
-        </div>   
-    </div>
-    <div id="pages">
-        <section id="products">
-            <div class="products__title">
-                <h2>products</h2>
+            <div class="header__main__title">
+                <h1><span>home of </span>original tastes</h1>
             </div>
-            <div id="product-list" class="product-list container">
-            </div>
-        </section>
-        <section id="home">
-            <div id="home-wrapper" class="home-wrapper container"></div>
-        </section>
-    </div>
-    <div class="about">
-        <div class="about__wrapper">
-            <div class="about__title">
-                <h2>about us</h2>
-            </div>
-            <div class="about__description">
-                <div class="about__who">
-                Who are we? Just a bunch of friends with
-                <br>a love for a good coffee and desire to create
-                <br>something new, something original.
-                <br><br> Our coffes reflect us - young, wild and free.
-                <br>We are on the journey of new tastes... 
-                <br><br><div class="about__join">Join us!</div>
-                </div>
+            <div class="header__discover">discover</div>
+            <div class="header__arrow">
+                <i class="icon-arrow"></i>
             </div>
         </div>
     </div>
+    <div id="pages">
+        <section id="products">
+            <div class="container">
+                <div class="page__title products__title">
+                    <h2>products</h2>
+                </div>
+                <div id="product-list" class="product-list">
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="page__title">
+                    <h2>contact us</h2>
+                </div>
+                <div id="contact-wrapper" class="contact__wrapper">
+                    <div class="contact__form">
+                        <form>
+                            <div class="contact__name">
+                                <label for="fname">name</label>
+                            </div>
+                            <div class="contact__iname">
+                                <input id="fname" type="text">
+                            </div>
+                            <div class="contact__title">
+                                <label for="title">title</label>
+                            </div>
+                            <div class="contact__ititle">
+                                <input id="title" type="text">
+                            </div>
+                            <div class="contact__message">
+                                <label for="message">message</label>
+                            </div>
+                            <div class="contact__imessage">
+                                <textarea id="imessage" type="text" rows="5"></textarea>
+                            </div>
+                            <div class="contact__button"><button type="submit" class="contact__submit">submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about">
+                <div class="about__wrapper">
+                    <div class="about__title">
+                        <h2>about us</h2>
+                    </div>
+                    <div class="about__description">
+                        <div class="about__who">
+                            Who are we? Just a bunch of friends with
+                            <br>a love for a good coffee and desire to create
+                            <br>something new, something original.
+                            <br><br> Our coffes reflect us - young, wild and free.
+                            <br>We are on the journey of new tastes...
+                            <br><br>
+                            <div class="about__join">Join us!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     <div class="footer">
-        <div class="container">
+        <div class="">
             <div class="footer__wrapper">
                 © 2021 EL TIGRE inc
             </div>

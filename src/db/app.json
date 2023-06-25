@@ -6,10 +6,10 @@
             "description": "Mysterious and treacherous... The best choice for<br><span> the start of your journey! It will provide your a rich</span><br> delicious flavor",
             "roasting": "5/10",
             "intensity": "6/10",
-            "images": "<img src=\"images/coffee-1.png\">",
+            "images": "<img src=\"images/coffee-1.png\" alt=\"la lagartija\">",
             "option": true,
             "top": true,
-            "badge": "<img src=\"images/no1.png\">"
+            "badge": "<img src=\"images/no1.png\" alt=\"numer one badge\">"
         },
         {
             "id": "2",
@@ -17,7 +17,7 @@
             "description": "Realy dark coffee, only for real gourmets. It has<br><span> bitter flavor of grapefruits and is mixed with a littel</span><br> bit of peanuts with with caramel",
             "roasting": "8/10",
             "intensity": "9/10",
-            "images": "<img src=\"images/coffee-2.png\">",
+            "images": "<img src=\"images/coffee-2.png\" alt=\"el tigre\">",
             "option": false
         },
         {
@@ -26,7 +26,7 @@
             "description": "Sweat and intense with a big amount of different<br><span> flavors. Caramel, grapes, strawberry, you name it! It,s</span><br> great choice for warm summer days",
             "roasting": "3/10",
             "intensity": "7/10",
-            "images": "<img src=\"images/coffee-3.png\">",
+            "images": "<img src=\"images/coffee-3.png\" alt=\"la cucaracha\">",
             "option": true
         }
     ]

@@ -1,29 +1,11 @@
 .products {
   &__title {
-    position: relative;
     margin: ($base-size * 6 + 10) auto ($base-size * 13 + 6);
-    width: 462px;
-    height: 51px;
-    line-height: 51px;
-
-    h2 {
-      margin: 0 auto ($base-size * 3 + 9);
-    }
-  }
-
-  &__title::after {
-    position: absolute;
-    content: '';
-    width: $base-size * 64 + 9;
-    height: $base-size /2;
-    background-color: $color-gold;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   &__wrapper {
     max-width: 1157px;
-    margin: 0 auto;
+    margin: 0 auto 0;
   }
 
   &__details {
@@ -35,7 +17,6 @@
   }
 
   &__image {
-    margin: 0 auto;
     width: 553px;
     height: 422px;
     padding: 0 0;
@@ -45,6 +26,7 @@
 
   &__details2 {
     padding: 3px 0 0 49px;
+    max-width: 100%;
   }
 
   &__subtitle {
@@ -54,7 +36,7 @@
     margin: 64px 0 33px;
 
     h3 {
-      margin : 0;
+      margin: 0;
     }
   }
 
@@ -79,6 +61,7 @@
     line-height: 15px;
     text-align: left;
     letter-spacing: 0.38px;
+
     span {
       line-height: 30px;
     }
@@ -88,6 +71,7 @@
     margin: 58px 0 0 13px;
     width: 162px;
     height: 47px;
+
     //line-height: 30px;
     span {
       color: $color-gold;
@@ -95,19 +79,32 @@
   }
 
 
-&__badge {
+  &__badge {
     position: absolute;
     width: 186px;
     height: 168px;
     top: 222px;
     left: 322px;
-    }  
-
+  }
 }
 
-
 @media (max-width: 1199px) {
-  .products__details2 {
-    padding: 0;
+  .row {
+    --bs-gutter-x: 0;
+  }
+
+  .products {
+    &__wrapper {
+      padding: 0 10px;
+    }
+
+    &__details2 {
+      padding: 0 0 0 7px;
+    
+    }
+
+    &__title::after {
+      width: $base-size * 40;
+    }
   }
 }

@@ -4,14 +4,62 @@
 
 body {
   margin: 0 auto;
-  height: $base-size * 314;
+  max-height: $base-size * 314;
 }
 
 .container {
+  min-height: $base-size * 151 +9;
   max-width: $base-size * 160;
   margin: 0 auto;
 }
 
 #pages {
   margin: 0 auto;
+}
+
+#products {
+  //display: none;
+}
+
+#contact {
+  display: none;
+}
+
+#home {
+  //display: 
+}
+
+.page {
+&__title {
+  position: relative;
+  margin: ($base-size * 6 + 10) auto 0;
+  height: 51px;
+  line-height: 51px;
+  text-align: center;
+
+  h2 {
+    margin: 0 auto ($base-size * 3 + 9);
+  }
+}
+
+&__title::after {
+  position: absolute;
+  content: '';
+  width: $base-size * 64 + 9;
+  height: $base-size /2;
+  background-color: $color-gold;
+  left: 50%;
+  transform: translateX(-50%);
+}
+}
+
+@media (max-width: 1199px) {
+  .page {
+    &__wrapper {
+      padding: 0 10px;
+    }
+    &__title::after {
+      width: $base-size * 40;
+    }
+  }
 }

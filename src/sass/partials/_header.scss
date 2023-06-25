@@ -3,9 +3,82 @@
   max-width: $base-size * 160;
   height: $base-size * 83 + 11;
   background-image: url(./../../images/background.png);
-    
+  background-size: cover;
+
   &__wrapper {
-    opacity: 0.69;
+    max-width: $base-size * 160;
+    height: $base-size * 83 + 11;
+    //background-color: $color-dark;
+    //opacity: 0.69;
+    padding: 1px 0 0;
   }
 
+  &__container {
+    position: relative;
+    margin: 45px auto 0 390px;
+    max-width: 1193px;
+    height: 55px;
+  }
+
+  &__title {
+    margin: 0 0 20px;
+    height: 24px;
+    color: $color-light;
+    font-family: $font-one;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 11px;
+    line-height: 24px;
+    text-transform: uppercase;
+    opacity: 100%;
+  }
+
+  &__subtitle {
+    margin: 0 0;
+    height: 11px;
+    font-family: $font-one;
+    color: $color-light;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 11px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+
+  }
+
+  &__nav {
+    position: absolute;
+    margin: 0;
+    top: 22px;
+    right: 0;
+    margin: 0;
+    width: 329px;
+    height: 13px;
+    opacity: 0.5;
+    color: $color-light;
+    font-family: $font-four;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 13px;
+    text-align: left;
+    text-transform: uppercase;
+    ul {
+      height:13px;
+      line-height: 13px;
+      margin: 0;
+      padding:0;
+      a {
+        text-decoration: none;
+        color: $color-light;
+      }
+      li {
+      padding-left: 30px;
+      display: inline-block; 
+      list-style: none;
+      }
+    }
+  }
 }

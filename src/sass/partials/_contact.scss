@@ -1,79 +1,78 @@
 .contact {
-    &__wrapper {
-        margin: 112px auto 112px;
-        padding: 0 0 0 12px;
-        text-align: center;
-    }
+  &__wrapper {
+    margin: 112px auto 112px;
+    padding: 0 0 0 12px;
+    text-align: center;
+  }
 
-    &__form {
-        width: 530px;
-        height: 683px;
-        margin: 0 auto;
-        font-family: $font-two;
-        font-size: 30px;
-        text-transform: uppercase;
-        letter-spacing: 6px;
-    }
+  &__form {
+    width: 530px;
+    height: 683px;
+    margin: 0 auto;
+    font-family: $font-two;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
 
-    &__name {
-        height: 20px;
-        line-height: 20px;
-        margin: 0 auto 38px;
-    }
+  &__name {
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto 38px;
+  }
 
-    &__iname,
-    &__ititle {
-        width: 530px;
-        height: 76px;
-    }
+  &__iname,
+  &__ititle {
+    width: 530px;
+    height: 76px;
+  }
 
-    &__title {
-        height: 20px;
-        line-height: 20px;
-        margin: 34px auto 38px;
-    }
+  &__title {
+    height: 20px;
+    line-height: 20px;
+    margin: 34px auto 38px;
+  }
 
-    &__message {
-        height: 20px;
-        line-height: 20px;
-        margin: 38px auto;
-    }
+  &__message {
+    height: 20px;
+    line-height: 20px;
+    margin: 38px auto;
+  }
 
-    &__imessage {
-        width: 530px;
-        height: 154px;
-    }
+  &__imessage {
+    width: 530px;
+    height: 154px;
+  }
 
-    &__button {
-        width: 246px;
-        height: 83px;
-        margin: 0 auto;
-    }
+  &__button {
+    width: 246px;
+    height: 83px;
+    margin: 0 auto;
+  }
 
-    &__submit {
-        background-color: $color-gold;
-        width: 100%;
-        height: 100%;
-        color: $color-light;
-        font-size: 30px;
-        font-family: $font-two;
-        margin: 48px auto 0;
-        letter-spacing: 6px;
-        text-transform: uppercase;
-    }
-
+  &__submit {
+    background-color: $color-gold;
+    width: 100%;
+    height: 100%;
+    color: $color-light;
+    font-size: 30px;
+    font-family: $font-two;
+    margin: 48px auto 0;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
 }
 
 textarea {
-    width: 530px;
-    height: 154px;
-    font-family: $font-two;
-    font-size: 30px;
+  width: 530px;
+  height: 154px;
+  font-family: $font-two;
+  font-size: 30px;
 }
 
 input {
-    width: 100%;
-    height: 100%;
-    font-family: $font-two;
-    font-size: 30px;
+  width: 100%;
+  height: 100%;
+  font-family: $font-two;
+  font-size: 30px;
 }

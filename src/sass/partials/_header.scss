@@ -39,6 +39,7 @@
     line-height: 24px;
     text-transform: uppercase;
     opacity: 100%;
+    font-style: normal;
   }
 
   &__subtitle {
@@ -90,6 +91,10 @@
         display: inline-block;
         list-style: none;
       }
+    }
+
+    .active {
+      color: $color-gold;
     }
   }
 
@@ -152,13 +157,13 @@
       width: 150px;
 
       ul {
-        line-height: 23px;
-
         li {
           display: block;
+          margin-bottom: 26px;
         }
       }
     }
+
     h1 {
       font-size: 75px;
     }
@@ -171,6 +176,7 @@
       margin-left: 20px;
       
     }
+
     &__main__title {
       text-align: center;
     }

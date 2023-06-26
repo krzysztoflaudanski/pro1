@@ -5,7 +5,21 @@ export const select = {
     },
     containerOf: {
         menu: '#product-list',
+        pages: '#pages'
     }, 
+
+    nav: {
+        links: '.header__nav ul li a'
+    }
+};
+
+export const classNames = {
+    nav: {
+        active: 'active',
+    },
+    pages: {
+        active: 'active',
+    }
 };
 
 export const settings = {

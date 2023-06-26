@@ -4,7 +4,7 @@
 
 body {
   margin: 0 auto;
-  max-height: $base-size * 314;
+  height: $base-size * 314;
 }
 
 .container {
@@ -14,7 +14,17 @@ body {
 }
 
 #pages {
+  > * {
+    display: none;
+  }
+
+  > .active {
+    display: block;
+  }
+
+  
   margin: 0 auto;
+
 }
 
 #products {
@@ -22,7 +32,7 @@ body {
 }
 
 #contact {
-  display: none;
+  //display: none;
 }
 
 #home {
@@ -30,27 +40,27 @@ body {
 }
 
 .page {
-&__title {
-  position: relative;
-  margin: ($base-size * 6 + 10) auto 0;
-  height: 51px;
-  line-height: 51px;
-  text-align: center;
+  &__title {
+    position: relative;
+    margin: ($base-size * 6 + 10) auto 0;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
 
-  h2 {
-    margin: 0 auto ($base-size * 3 + 9);
+    h2 {
+      margin: 0 auto ($base-size * 3 + 9);
+    }
   }
-}
 
-&__title::after {
-  position: absolute;
-  content: '';
-  width: $base-size * 64 + 9;
-  height: $base-size /2;
-  background-color: $color-gold;
-  left: 50%;
-  transform: translateX(-50%);
-}
+  &__title::after {
+    position: absolute;
+    content: '';
+    width: $base-size * 64 + 9;
+    height: $base-size /2;
+    background-color: $color-gold;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 @media (max-width: 1199px) {
@@ -58,6 +68,7 @@ body {
     &__wrapper {
       padding: 0 10px;
     }
+
     &__title::after {
       width: $base-size * 40;
     }

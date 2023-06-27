@@ -39,6 +39,8 @@ const app = {
 
             if (thisApp.pages[2].classList.contains(classNames.pages.active))
                 thisApp.pages[0].classList.add(classNames.pages.active);
+            if (thisApp.pages[1].classList.contains(classNames.pages.active))
+                thisApp.pages[0].classList.remove(classNames.pages.active);
         }
 
         for (let link of thisApp.navLinks) {
